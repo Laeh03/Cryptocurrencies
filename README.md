@@ -41,7 +41,8 @@ This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocu
 <p align="center">
  <img src="https://user-images.githubusercontent.com/64225504/141855119-bb54a509-ddff-416f-880f-34adece6bf6c.png"
 </p>
-This 2-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
+
+ This 2-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
 <br><br>
 Both these scatter plots show the distribution and the four clusters of cryptocurrencies.<br>
 We can identify the outliers like the unique cryptocurrency in the class #2.
