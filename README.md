@@ -24,7 +24,7 @@ Following the preprocessing and cleaning phase we have a total of 532 tradable c
 We don't know what would be the output of the analysis so we are using unsupervised machine learning to identify clusters of the cryptocurrencies.\
 We produced the elbow curve below using the K-Means method iterating on k values from 1 to 10. 
 <p align="center">
-  ![elbow curve](https://user-images.githubusercontent.com/64225504/141854987-77a67219-45e5-4419-be58-18f5f70de70c.png)
+<img src="https://user-images.githubusercontent.com/64225504/141854987-77a67219-45e5-4419-be58-18f5f70de70c.png">
  </p>
 The best k value appears to be 4 so we would conclude on an output of 4 clusters to categorize the crytocurrencies.
 <br><br>
@@ -32,14 +32,14 @@ The best k value appears to be 4 so we would conclude on an output of 4 clusters
 ### Visualizing Cryptocurrencies Results
 #### 3D-Scatter plot with clusters
 <p align="center">
-   ![Scatter plot](https://user-images.githubusercontent.com/64225504/141855047-13aff40f-4255-423d-a570-739c432c9245.png)
+  <img src="https://user-images.githubusercontent.com/64225504/141855047-13aff40f-4255-423d-a570-739c432c9245.png">
 </p>
 This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components.
 <br><br>
 
 #### 2D-Scatter plot with clusters
 <p align="center">
-  ![2-D scatter plot](https://user-images.githubusercontent.com/64225504/141855119-bb54a509-ddff-416f-880f-34adece6bf6c.png)
+ <img src="https://user-images.githubusercontent.com/64225504/141855119-bb54a509-ddff-416f-880f-34adece6bf6c.png"
 </p>
 This 2-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
 <br><br>
@@ -49,7 +49,7 @@ We can identify the outliers like the unique cryptocurrency in the class #2.
 
 #### Tradable Cryptocurrencies Table
 <p align="center">
-   ![table](https://user-images.githubusercontent.com/64225504/141855165-35a6b759-31af-4aa9-9d93-1f97c507dddf.png)
+ <img src="https://user-images.githubusercontent.com/64225504/141855165-35a6b759-31af-4aa9-9d93-1f97c507dddf.png">
 </p>
 Most of the cryptocurrencies are part of class #0 and #1.<br>
 The snapshot above shows that BitTorrent is the only cryptocurrency in class #2.
@@ -57,7 +57,7 @@ The snapshot above shows that BitTorrent is the only cryptocurrency in class #2.
 
 #### 2D-Scatter plot with TotalCoinMined vs TotalCoinSupply
 <p align="center">
-   ![Scatter Mined vs  supply](https://user-images.githubusercontent.com/64225504/141855186-ec138b3b-5f71-495b-a08d-ad7f01754df3.png)
+ <img src="https://user-images.githubusercontent.com/64225504/141855186-ec138b3b-5f71-495b-a08d-ad7f01754df3.png">
 </p>
 Plotting the scatter plot from two cryptocurrency features directly does not efficiently segregate the different classes. Then using the PCA algorithm is the right method for better visualizations.
 <br><br>
